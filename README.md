@@ -1,4 +1,4 @@
-### Introduction
+## Introduction
 
 This second programming assignment will require you to write an R
 function that is able to cache potentially time-consuming computations.
@@ -12,7 +12,7 @@ Programming Assignment you will take advantage of the scoping rules of
 the R language and how they can be manipulated to preserve state inside
 of an R object.
 
-### Example: Caching the Mean of a Vector
+## Example: Caching the Mean of a Vector
 
 In this example we introduce the `<<-` operator which can be used to
 assign a value to an object in an environment that is different from the
@@ -62,7 +62,7 @@ function.
             m
     }
 
-### Assignment: Caching the Inverse of a Matrix
+## Assignment: Caching the Inverse of a Matrix
 
 Matrix inversion is usually a costly computation and there may be some
 benefit to caching the inverse of a matrix rather than computing it
@@ -100,6 +100,6 @@ In order to complete this assignment, you must do the following:
 5.  Submit to Coursera the URL to your GitHub repository that contains
     the completed R code for the assignment.
 
-### Grading
+## Grading
 
 This assignment will be graded via peer assessment.
