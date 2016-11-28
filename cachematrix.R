@@ -44,7 +44,7 @@ cacheSolve <- function(x, ...) {
     s
 }
 
-M <- matrix(c(0,1,0,3,4,2,0,0,1),nrow=3)
+M <- matrix(c(0,3,0,3,4,2,0,0,1),nrow=3)
 cacheM <- makeCacheMatrix(M)
 inv <- cacheSolve(cacheM)
 print(inv)
